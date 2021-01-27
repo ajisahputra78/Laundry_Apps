@@ -1,23 +1,25 @@
 # Laundry_Apps
 Laundry Apps (ManYu). My final project semester 5 Universitas Amikom Yogyakarta.
 
-# LannchScreen
+# Tampilan
 
 <img width="441" alt="screen 1" src="https://user-images.githubusercontent.com/59410960/106047934-ccea1600-6116-11eb-8a11-8c45b550808c.png">
 <img width="441" alt="screen 2" src="https://user-images.githubusercontent.com/59410960/106047946-d07d9d00-6116-11eb-9ce9-07b7359f13dd.png">
+#
 
-~login or create an account~
+# login or create an account
 
 <img width="441" alt="login or creat accun" src="https://user-images.githubusercontent.com/59410960/106048916-0e2ef580-6118-11eb-8350-6b25898adecb.png">
 
-~Login~
+# Login
 
 <img width="441" alt="login" src="https://user-images.githubusercontent.com/59410960/106047874-b80d8280-6116-11eb-9f21-58ed84981864.png">
 
-~Create an Account~
+Create an Account
+
 <img width="397" alt="signup" src="https://user-images.githubusercontent.com/59410960/106048089-0589ef80-6117-11eb-9390-cb336b4add76.png">
 
-   ~Clik Create an Account~
+   - Clik Create an Account
 <img width="441" alt="signup -location" src="https://user-images.githubusercontent.com/59410960/106048046-f60aa680-6116-11eb-904c-455b1a69f974.png">
 
   ~slect place by map
