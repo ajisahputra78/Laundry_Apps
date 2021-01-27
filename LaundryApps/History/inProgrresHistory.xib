@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="inProgrresHistory" customModule="LaundryApps" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWb-Xy-ZIL">
+                    <rect key="frame" x="20" y="44" width="365" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="GPM-lh-fif"/>
+                    </constraints>
+                    <state key="normal" image="Group 2"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPB-cM-RsQ">
+                    <rect key="frame" x="20" y="160" width="365" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="KMv-SI-UeU"/>
+                    </constraints>
+                    <state key="normal" image="Group 2 Copy"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="XWb-Xy-ZIL" secondAttribute="bottom" constant="710" id="7yx-f1-HBY"/>
+                <constraint firstItem="XPB-cM-RsQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="8jy-qh-NsT"/>
+                <constraint firstItem="XWb-Xy-ZIL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Kwl-nO-uMO"/>
+                <constraint firstItem="XWb-Xy-ZIL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="M3x-2B-dz8"/>
+                <constraint firstItem="XPB-cM-RsQ" firstAttribute="top" secondItem="XWb-Xy-ZIL" secondAttribute="bottom" constant="8" symbolic="YES" id="Xlu-Qh-wrg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XPB-cM-RsQ" secondAttribute="trailing" constant="29" id="e9p-Ob-e7z"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="XPB-cM-RsQ" secondAttribute="bottom" constant="594" id="fNC-G8-zve"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XWb-Xy-ZIL" secondAttribute="trailing" constant="29" id="gDj-GR-cKI"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="92"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Group 2" width="365" height="108"/>
+        <image name="Group 2 Copy" width="365" height="108"/>
+    </resources>
+</document>

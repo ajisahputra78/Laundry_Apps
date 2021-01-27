@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="allHistoryViewController" customModule="LaundryApps" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qE-ph-ScB">
+                    <rect key="frame" x="20" y="44" width="365" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="hbH-Jd-1yu"/>
+                    </constraints>
+                    <state key="normal" image="Group 2"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOf-P9-lia">
+                    <rect key="frame" x="24" y="149" width="365" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="Oh0-q6-XAO"/>
+                    </constraints>
+                    <state key="normal" image="Group 2 Copy"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lP0-7M-yn9">
+                    <rect key="frame" x="20" y="265" width="365" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="wbd-Mu-qok"/>
+                    </constraints>
+                    <state key="normal" image="Group 2 Copy 3"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lP0-7M-yn9" secondAttribute="trailing" constant="29" id="1Pc-3o-rkw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5qE-ph-ScB" secondAttribute="trailing" constant="29" id="5Ev-xB-8Lv"/>
+                <constraint firstItem="5qE-ph-ScB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="9rr-Sw-lvT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KOf-P9-lia" secondAttribute="bottom" constant="605" id="Ffk-I6-BYU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="lP0-7M-yn9" secondAttribute="bottom" constant="447" id="Lh6-T8-tZv"/>
+                <constraint firstItem="KOf-P9-lia" firstAttribute="top" secondItem="5qE-ph-ScB" secondAttribute="bottom" constant="-3" id="NwU-oN-uMM"/>
+                <constraint firstItem="lP0-7M-yn9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="OWD-XW-08z"/>
+                <constraint firstItem="lP0-7M-yn9" firstAttribute="top" secondItem="KOf-P9-lia" secondAttribute="bottom" constant="8" symbolic="YES" id="VTw-c5-Cca"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5qE-ph-ScB" secondAttribute="bottom" constant="710" id="Yti-x0-D1n"/>
+                <constraint firstItem="KOf-P9-lia" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="kfF-Cz-6oK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KOf-P9-lia" secondAttribute="trailing" constant="25" id="t3T-fM-47z"/>
+                <constraint firstItem="5qE-ph-ScB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="wW7-uS-X3E"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="91.741071428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Group 2" width="365" height="108"/>
+        <image name="Group 2 Copy" width="365" height="108"/>
+        <image name="Group 2 Copy 3" width="365" height="150"/>
+    </resources>
+</document>

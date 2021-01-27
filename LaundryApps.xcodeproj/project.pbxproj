@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5244ABEF25A3265500C123EA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5244ABEE25A3265500C123EA /* MapKit.framework */; };
 		52B46CBA257CD921008BDBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46CB9257CD921008BDBC8 /* AppDelegate.swift */; };
 		52B46CBC257CD921008BDBC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46CBB257CD921008BDBC8 /* SceneDelegate.swift */; };
 		52B46CBE257CD921008BDBC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46CBD257CD921008BDBC8 /* ViewController.swift */; };
 		52B46CC1257CD921008BDBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B46CBF257CD921008BDBC8 /* Main.storyboard */; };
-		52B46CC3257CD924008BDBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B46CC2257CD924008BDBC8 /* Assets.xcassets */; };
 		52B46CC6257CD924008BDBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B46CC4257CD924008BDBC8 /* LaunchScreen.storyboard */; };
+		52EBE64125A6311500EFF6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EBE64025A6311500EFF6E0 /* Assets.xcassets */; };
+		52EBE64725A6377300EFF6E0 /* allHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBE64525A6377300EFF6E0 /* allHistoryViewController.swift */; };
+		52EBE64825A6377300EFF6E0 /* allHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EBE64625A6377300EFF6E0 /* allHistoryViewController.xib */; };
+		52EBE64C25A637AC00EFF6E0 /* inProgrresHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBE64A25A637AC00EFF6E0 /* inProgrresHistory.swift */; };
+		52EBE64D25A637AC00EFF6E0 /* inProgrresHistory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EBE64B25A637AC00EFF6E0 /* inProgrresHistory.xib */; };
+		52EBE65125A637F000EFF6E0 /* completedHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBE64F25A637F000EFF6E0 /* completedHistory.swift */; };
+		52EBE65225A637F000EFF6E0 /* completedHistory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EBE65025A637F000EFF6E0 /* completedHistory.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5244ABEE25A3265500C123EA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		52B46CB6257CD920008BDBC8 /* LaundryApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B46CB9257CD921008BDBC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B46CBB257CD921008BDBC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52B46CBD257CD921008BDBC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52B46CC0257CD921008BDBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52B46CC2257CD924008BDBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B46CC5257CD924008BDBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B46CC7257CD924008BDBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EBE64025A6311500EFF6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52EBE64525A6377300EFF6E0 /* allHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allHistoryViewController.swift; sourceTree = "<group>"; };
+		52EBE64625A6377300EFF6E0 /* allHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = allHistoryViewController.xib; sourceTree = "<group>"; };
+		52EBE64A25A637AC00EFF6E0 /* inProgrresHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inProgrresHistory.swift; sourceTree = "<group>"; };
+		52EBE64B25A637AC00EFF6E0 /* inProgrresHistory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = inProgrresHistory.xib; sourceTree = "<group>"; };
+		52EBE64F25A637F000EFF6E0 /* completedHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completedHistory.swift; sourceTree = "<group>"; };
+		52EBE65025A637F000EFF6E0 /* completedHistory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = completedHistory.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5244ABEF25A3265500C123EA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5244ABED25A3265500C123EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5244ABEE25A3265500C123EA /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52B46CAD257CD920008BDBC8 = {
 			isa = PBXGroup;
 			children = (
 				52B46CB8257CD920008BDBC8 /* LaundryApps */,
 				52B46CB7257CD920008BDBC8 /* Products */,
+				5244ABED25A3265500C123EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,29 @@
 		52B46CB8257CD920008BDBC8 /* LaundryApps */ = {
 			isa = PBXGroup;
 			children = (
+				52EBE64425A6372800EFF6E0 /* History */,
 				52B46CB9257CD921008BDBC8 /* AppDelegate.swift */,
 				52B46CBB257CD921008BDBC8 /* SceneDelegate.swift */,
 				52B46CBD257CD921008BDBC8 /* ViewController.swift */,
 				52B46CBF257CD921008BDBC8 /* Main.storyboard */,
-				52B46CC2257CD924008BDBC8 /* Assets.xcassets */,
+				52EBE64025A6311500EFF6E0 /* Assets.xcassets */,
 				52B46CC4257CD924008BDBC8 /* LaunchScreen.storyboard */,
 				52B46CC7257CD924008BDBC8 /* Info.plist */,
 			);
 			path = LaundryApps;
+			sourceTree = "<group>";
+		};
+		52EBE64425A6372800EFF6E0 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				52EBE64525A6377300EFF6E0 /* allHistoryViewController.swift */,
+				52EBE64625A6377300EFF6E0 /* allHistoryViewController.xib */,
+				52EBE64A25A637AC00EFF6E0 /* inProgrresHistory.swift */,
+				52EBE64B25A637AC00EFF6E0 /* inProgrresHistory.xib */,
+				52EBE64F25A637F000EFF6E0 /* completedHistory.swift */,
+				52EBE65025A637F000EFF6E0 /* completedHistory.xib */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B46CC6257CD924008BDBC8 /* LaunchScreen.storyboard in Resources */,
-				52B46CC3257CD924008BDBC8 /* Assets.xcassets in Resources */,
+				52EBE64125A6311500EFF6E0 /* Assets.xcassets in Resources */,
+				52EBE65225A637F000EFF6E0 /* completedHistory.xib in Resources */,
 				52B46CC1257CD921008BDBC8 /* Main.storyboard in Resources */,
+				52EBE64D25A637AC00EFF6E0 /* inProgrresHistory.xib in Resources */,
+				52EBE64825A6377300EFF6E0 /* allHistoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +181,9 @@
 				52B46CBE257CD921008BDBC8 /* ViewController.swift in Sources */,
 				52B46CBA257CD921008BDBC8 /* AppDelegate.swift in Sources */,
 				52B46CBC257CD921008BDBC8 /* SceneDelegate.swift in Sources */,
+				52EBE64725A6377300EFF6E0 /* allHistoryViewController.swift in Sources */,
+				52EBE65125A637F000EFF6E0 /* completedHistory.swift in Sources */,
+				52EBE64C25A637AC00EFF6E0 /* inProgrresHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,7 +337,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.exempel.LaundryApps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exempel.Cuciin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +356,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.exempel.LaundryApps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exempel.Cuciin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
